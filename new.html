@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Nueva Página</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crear Nueva Página</h1>
+        <form action="new.pl" method="POST">
+            <label for="title">Título:</label>
+            <input type="text" id="title" name="title" required><br><br>
+
+            <label for="content">Contenido (Markdown):</label><br>
+            <textarea id="content" name="content" rows="10" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Crear Página">
+            <a href="/index.html">Cancelar</a>
+        </form>
+    </div>
+</body>
+</html>

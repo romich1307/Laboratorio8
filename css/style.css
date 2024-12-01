@@ -1,0 +1,476 @@
+/* Fondo y colores generales */
+body {
+    font-family: 'Varela Round', sans-serif; 
+    background-image: url('../images/fondo.jpg');
+  /* Ruta de la imagen de fondo */
+    background-size: cover;  /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center;  /* Centra la imagen en la pantalla */
+    background-attachment: fixed;  /* Gris claro para el fondo general */
+    color: #333;  /* Gris oscuro para el texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales para el contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #483e81;  /* Fondo púrpura oscuro */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #615b84;  /* Sombra para profundidad */
+    margin-top: 120px;  /* Espacio superior para evitar que se vea pegado */
+    font-family: 'Varela Round', sans-serif; 
+}
+
+/* Título principal en el contenedor */
+.titulo-personalizado {
+    text-align: center;
+    font-size: 3em;
+    color: #cac2f5;  /* Púrpura claro */
+    margin-top: 10px;
+}
+.wiki-title {
+    text-align: center;
+    font-size: 3em;
+    color: #cac2f5;  /* Púrpura claro */
+    margin-top: 10px;       /* Color de texto */
+}
+.success-message {
+    text-align: center;
+    font-size: 3em;
+    color: #cac2f5;  /* Púrpura claro */
+    margin-top: 10px;     /* Color verde para indicar éxito */
+}
+
+
+/* Tabla dentro del contenedor */
+.container table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #b7acf1;  /* Fondo lavanda para la tabla */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los encabezados de la tabla */
+.container th {
+    padding: 10px;
+    text-align: left;
+    color: white;
+    background-color: #615b84;  /* Fondo púrpura oscuro */
+    font-size: 1.2em;
+}
+
+/* Estilo de las celdas de la tabla */
+.container td {
+    padding: 10px;
+    text-align: left;
+    color: #1e2c59;  /* Gris oscuro */
+    background-color: #cac2f5;  /* Fondo lavanda claro */
+    font-size: 1.2em;
+}
+
+/* Estilo para los enlaces dentro de la tabla */
+.container td strong {
+    color: #42326E;  /* Púrpura oscuro */
+}
+
+/* Estilos para los enlaces en la página */
+.container a {
+    text-decoration: none;
+    color: #6E5B9A;  /* Púrpura medio */
+}
+
+.container a:hover {
+    color: #615b84;  /* Lavanda para el hover */
+    text-decoration: underline;
+}
+
+/* Estilo para la lista de enlaces */
+.container ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.container ul li {
+    margin-bottom: 10px;
+}
+
+.container ul li a {
+    background-color: #615b84;  /* Lavanda oscuro */
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.container ul li a:hover {
+    background-color: #cac2f5;  /* Lavanda muy claro */
+}
+
+/* Estilos del footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #42326E;  /* Lila pálido */
+    margin-top: 280px;
+    border-radius: 8px;
+}
+
+footer p {
+    font-size: 1em;
+    color: #cac2f5;  /* Púrpura claro */
+}
+/* Estilos generales para el contenedor de la nueva página */
+.new-page-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #483e81;  /* Fondo lavanda claro */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px
+    
+}
+
+/* Título en el contenedor de la nueva página */
+.new-page-container h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #cac2f5;  /* Púrpura oscuro */
+    font-family: 'Varela Round', sans-serif; 
+}
+
+/* Estilos del formulario */
+.new-page-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para las etiquetas en el formulario */
+.new-page-container label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #cac2f5;  /* Color claro */
+    font-family: 'Varela Round', sans-serif; 
+}
+
+/* Estilos para los campos de texto y área de texto */
+.new-page-container input[type="text"], 
+.new-page-container textarea {
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid #cac2f5;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-family: 'Varela Round', sans-serif; 
+}
+
+/* Estilos para el botón de enviar */
+.new-page-container input[type="submit"] {
+    background-color: #615b84;  /* Púrpura oscuro */
+    color: #cac2f5;  /* Texto claro */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Varela Round', sans-serif; 
+}
+
+.new-page-container input[type="submit"]:hover {
+    background-color: #cac2f5; 
+    color: #42326E;  /* Lavanda claro */
+    font-family: 'Varela Round', sans-serif; 
+}
+
+/* Estilos para el botón de cancelar */
+.new-page-container .cancel-button {
+    background-color: #615b84;  /* Púrpura oscuro */
+    color: #cac2f5;  /* Texto claro */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: 0px;  /* Separación del botón de crear */
+    margin-top: 10px;
+    font-family: 'Varela Round', sans-serif; 
+}
+
+.new-page-container .cancel-button:hover {
+    background-color: #cac2f5; 
+    color: #42326E;  /* Lavanda claro */
+    font-family: 'Varela Round', sans-serif; 
+}
+
+/* Responsividad para la página de creación */
+@media (max-width: 600px) {
+    .new-page-container {
+        padding: 15px;
+    }
+
+    .new-page-container h1 {
+        font-size: 2em;
+    }
+
+    .new-page-container input[type="text"], 
+    .new-page-container textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+/* Contenedor de todas las páginas */
+.pages-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Varela Round', sans-serif; 
+}
+
+/* Lista de páginas */
+.pages-list {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif; 
+}
+
+.page-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #42326E;
+    font-family: 'Varela Round', sans-serif; 
+}
+
+/* Enlaces de las páginas */
+.page-link {
+    color: #cac2f5;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif; 
+}
+
+.page-link:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor de botones (Editar y Eliminar) */
+.page-buttons {
+    margin-top: 10px;
+    
+}
+
+/* Estilos para los botones */
+.edit-button, .delete-button {
+    padding: 5px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 5px;
+    font-family: 'Varela Round', sans-serif; 
+}
+.new-page-link{
+    padding: 5px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 355px;
+    font-family: 'Varela Round', sans-serif; 
+}
+
+.edit-button {
+    background-color: #cac2f5;
+    
+}
+
+.edit-button:hover {
+    background-color: #42326E;
+}
+
+.delete-button {
+    background-color: #cac2f5;
+}
+
+.delete-button:hover {
+    background-color: #42326E;
+}
+
+.new-page-link {
+    background-color: #cac2f5;
+}
+
+.new-page-link:hover {
+    background-color: #42326E;
+}
+/* Contenedor principal para el formulario de edición */
+.edit-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e2c59;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top:50px;
+}
+
+/* Estilo para el título */
+.edit-container h1 {
+    text-align: center;
+    color: #cac2f5;
+}
+
+/* Estilo para el formulario */
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para el área de texto donde se edita el contenido */
+.content-textarea {
+    width: 100%;
+    max-width: 600px;
+    min-height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+/* Estilo para el botón de enviar */
+.submit-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #cac2f5;
+    color: #42326E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #42326E;
+    color:#cac2f5;
+}
+/* Contenedor para los mensajes (éxito o error) */
+.message {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top:50px;
+}
+
+.message.success {
+    background-color: #1e2c59;
+    color: #cac2f5;
+    border: 1px solid #cac2f5;
+}
+
+.message.error {
+    background-color: #1e2c59;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Estilo para los encabezados */
+.editar-pagina {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los enlaces */
+.link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #cac2f5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.link:hover {
+    background-color: #42326E;
+    color:#cac2f5;
+}
+/* Estilo para los errores o mensajes */
+.pagina-no-encontrada {
+    color: #42326E;
+    text-align: center;
+    font-weight: bold;
+}
+.p1 {
+    color: #cac2f5;
+    text-align: center;
+    font-weight: bold;
+}
+.content-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.page-content {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+}
+
+.message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 20px;
+    border: 1px solid #f5c6cb;
+    margin: 50px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+.custom-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #cac2f5;  /* Un color que prefieras */
+}
+
+.btn {
+    background-color: #42326E;/* Color de fondo rojo para el error */
+    color: white;               /* Texto blanco */
+    padding: 10px 20px;         /* Relleno alrededor del texto */
+    text-decoration: none;      /* Eliminar subrayado en el enlace */
+    border-radius: 5px;         /* Bordes redondeados */
+    font-size: 16px;            /* Tamaño de fuente */
+    display: inline-block;      /* Para que se comporte como un bloque pero en línea */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+}
+
+.btn:hover {
+    background-color: #cac2f5; /* Rojo más oscuro en hover */
+    transform: scale(1.05);      /* Aumenta ligeramente el tamaño cuando se pasa el cursor */
+}
+.botn {
+    background-color: #42326E;/* Color de fondo rojo para el error */
+    color: white;               /* Texto blanco */
+    padding: 10px 20px;         /* Relleno alrededor del texto */
+    text-decoration: none;      /* Eliminar subrayado en el enlace */
+    border-radius: 5px;         /* Bordes redondeados */
+    font-size: 16px;            /* Tamaño de fuente */
+    display: inline-block;      /* Para que se comporte como un bloque pero en línea */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+}
+
+.botn:hover {
+    background-color: #cac2f5; /* Rojo más oscuro en hover */
+    transform: scale(1.05);      /* Aumenta ligeramente el tamaño cuando se pasa el cursor */
+}
